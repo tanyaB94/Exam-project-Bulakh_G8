@@ -1,0 +1,83 @@
+BASE_URL = https://www.sinsay.com/ua/uk/
+USER_NAME = bulakhtanya94@gmail.com
+USER_PASSWORD = tanya123
+
+TestCase #001 - login to the site
+Precondition:
+1 Open the browser (optional)
+2. Open the site https://www.sinsay.com/ua/uk/
+3. Login to the site using the credentials
+
+Test Steps:
+1. Click on the "Акаунт" button
+2. Click on the "Увійти" button
+3. Enter the login
+4. Enter the password
+5. Click on the "Увійдіть" button
+
+Expected Result:
+6. Verify user sees the Home Page with the user name and button "Вибране"
+
+Postconditions:
+7. Close the browser (optional)
+
+TestCase #002 - Sing out from the site
+Precondition:
+1. User must be logged in application
+
+Test Steps:
+1. Click on the "Акаунт" button
+2. Click on the "Вийти" button
+
+Expected Result:
+3. Verify user sees the Home Page with the button "Увійти"
+
+Postconditions:
+4. Close the browser (optional)
+
+TestCase #003 -Check the "Вибране" button
+Precondition:
+1. User must be logged in application
+
+Test Steps:
+1. Click on the "Вибране" button
+2. Check quantity of the products in the "Вибране"
+
+Expected Result:
+3. Verify user sees the Home Page with the quantity of the products in the "Вибране"
+
+Postconditions:
+4. Close the browser (optional)
+
+TestCase #004 - Add product to the basket
+Precondition:
+1. User must be logged in application
+
+Test Steps:
+1. Click on the dropdown "Дім"
+2. Click on the "Вітальня і спальня" button
+3. Click on the product "Завіска"
+4. Click on the "Додати - 719" button
+
+Expected Result:
+5. Verify user sees the Home Page with the quantity of the products in the "Кошик"
+
+Postconditions:
+6. Close the browser (optional)
+
+TestCase #005 - Delete product from the basket
+Precondition:
+1. User must be logged in application
+
+Test Steps:
+1. Click on the "Кошик" button
+2. Click on the "Видалити" button
+
+Expected Result:
+3. Verify user sees in basket the message "Ваш кошик пустий"
+
+Postconditions:
+4. Close the browser (optional)
+
+
+
