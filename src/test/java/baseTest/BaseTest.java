@@ -41,5 +41,4 @@ public class BaseTest {
     @Rule
     public TestName testName = new TestName();
 
-
 }
