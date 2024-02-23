@@ -2,7 +2,9 @@ package favoritesTest;
 
 import baseTest.BaseTest;
 import data.TestData;
+import org.junit.Assert;
 import org.junit.Test;
+import pages.FavoritesPage;
 
 public class CheckMenuFavorites extends BaseTest {
 
@@ -16,7 +18,11 @@ public class CheckMenuFavorites extends BaseTest {
         pageProvider.loginPage().clickOnButtonSingIn();
         pageProvider.loginPage().clickOnClosePopupButton();
         pageProvider.mainPage().getHeader().clickOnButtonFavorite();
-        pageProvider.favoritePage().getCountOfFavorites();
+        pageProvider.favoritePage().checkCountOfFavorites();
+
+        Assert.assertTrue("Favorites count is not as expected", pageProvider.favoritePage().checkCountOfFavorites());
+        Assert.assertFalse("No favorites found", pageProvider.favoritePage().checkCountOfFavorites());
+
 
 
 

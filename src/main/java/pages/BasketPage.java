@@ -14,16 +14,17 @@ public class BasketPage extends ParentPage{
     @FindBy(xpath = "//h1[@class='headline__HeadlineComponent-sc-1b12ysc-0 gPoDim']")
     private WebElement validationMessage;
 
+    @FindBy(xpath = "//*[@class='badge__BadgeComponent-kyo77g-0 iYOftF']")
+    private WebElement emptyBasket;
+
     public BasketPage(WebDriver webDriver) {
         super(webDriver);
     }
 
     @Override
     protected String getRelativeUrl() {
-        return null;
+        return "/basket";
     }
-
-
 
 
 
@@ -40,5 +41,9 @@ public class BasketPage extends ParentPage{
     private BasketPage checkIsElementVisible(WebElement validationMessage) {
         return this;
 
+    }
+
+    public boolean isBasketContainsItems(){
+        return this.isBasketContainsItems();
     }
 }

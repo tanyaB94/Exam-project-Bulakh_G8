@@ -8,20 +8,20 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class FavoritesPage extends ParentPage{
+public class FavoritesPage extends ParentPage {
 
     public FavoritesPage(WebDriver webDriver) {
         super(webDriver);
     }
 
-    WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(10));
+    WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(20));
 
     @Override
     protected String getRelativeUrl() {
         return null;
     }
 
-    @FindBy(xpath ="//*[@class='sc-jHVedQ kxZKPm']")
+    @FindBy(xpath = "//*[@class='sc-dkIXZx eRvNCS']")
     private WebElement countOfFavorites;
 
     @FindBy(xpath = "(//div[@data-testid=\"wishlist_options_button\"])[1]")
@@ -33,11 +33,8 @@ public class FavoritesPage extends ParentPage{
     @FindBy(xpath = "//*[@class='sc-dwfUuu QIqYX']")
     private WebElement validationMessage;
 
-
-
-
-
-
+    @FindBy(xpath = "//p[@data-testid = 'wishlist_header_quantity']")
+    private WebElement emptyFavorites;
 
 
     public FavoritesPage getCountOfFavorites() {
@@ -45,7 +42,6 @@ public class FavoritesPage extends ParentPage{
         return this;
 
     }
-
 
 
     public FavoritesPage clickOnNavigationMenu() {
@@ -62,12 +58,15 @@ public class FavoritesPage extends ParentPage{
 
     }
 
-    public FavoritesPage checkValidationMessage(){
+    public FavoritesPage checkValidationMessage() {
         wait.until(ExpectedConditions.textToBePresentInElement(validationMessage, "Товар видалено зі списку бажань"));
         checkTextInElement(validationMessage, "Товар видалено зі списку бажань");
         return this;
 
     }
 
-
+    public boolean checkCountOfFavorites() {
+        wait.until(ExpectedConditions.textToBePresentInElement(countOfFavorites, "2"));
+        return checkTextInElement(countOfFavorites, "2");
     }
+}

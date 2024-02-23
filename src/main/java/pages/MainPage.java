@@ -40,14 +40,10 @@ public class MainPage extends ParentPage{
             loginPage.clickOnButtonSingIn();
             checkIsRedirectToMainPage();
             logger.info("User was logged in");
+
         }
         return this;
     }
-
-
-
-
-
 
 
 }

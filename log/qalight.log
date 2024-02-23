@@ -1020,3 +1020,158 @@
 2024-07-02 14:56:43  INFO [pages.BasketPage] : Element was clicked
 2024-07-02 14:56:44  INFO [basketTests.DeleteFromBasket] : Browser was closed
 2024-07-02 14:56:44  INFO [basketTests.DeleteFromBasket] : ----deleteFromBasket was ended ----
+2024-22-02 18:16:08  INFO [loginTests.ValidLoginTest] : ----validLogin was started ----
+2024-22-02 18:16:15  INFO [loginTests.ValidLoginTest] : Browser was opened
+2024-22-02 18:16:15  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:16:17  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:16:23  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:16:23  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:16:33  INFO [pages.LoginPage] : Element was not clicked
+2024-22-02 18:16:38  INFO [loginTests.ValidLoginTest] : Browser was closed
+2024-22-02 18:16:38  INFO [loginTests.ValidLoginTest] : ----validLogin was ended ----
+2024-22-02 18:16:48  INFO [loginTests.ValidLoginTest] : ----validLogin was started ----
+2024-22-02 18:16:54  INFO [loginTests.ValidLoginTest] : Browser was opened
+2024-22-02 18:16:54  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:16:57  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:17:02  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:17:02  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:17:12  INFO [pages.LoginPage] : Element was not clicked
+2024-22-02 18:17:18  INFO [loginTests.ValidLoginTest] : Browser was closed
+2024-22-02 18:17:18  INFO [loginTests.ValidLoginTest] : ----validLogin was ended ----
+2024-22-02 18:17:30  INFO [loginTests.ValidLoginTest] : ----validLogin was started ----
+2024-22-02 18:17:36  INFO [loginTests.ValidLoginTest] : Browser was opened
+2024-22-02 18:17:36  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:17:39  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:17:44  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:17:44  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:17:54  INFO [pages.LoginPage] : Element was not clicked
+2024-22-02 18:18:00  INFO [loginTests.ValidLoginTest] : Browser was closed
+2024-22-02 18:18:00  INFO [loginTests.ValidLoginTest] : ----validLogin was ended ----
+2024-22-02 18:26:04  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 18:26:09  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 18:26:09  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:26:12  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:26:17  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:26:17  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:26:27  INFO [pages.LoginPage] : Element was not clicked
+2024-22-02 18:26:42  INFO [pages.elements.HeaderElement] : Element was not clicked
+2024-22-02 18:26:52  INFO [pages.FavoritesPage] : Element was not clicked
+2024-22-02 18:27:08  INFO [favoritesTest.CheckMenuFavorites] : Browser was closed
+2024-22-02 18:27:08  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was ended ----
+2024-22-02 18:29:11  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 18:29:17  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 18:29:17  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:29:20  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:29:25  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:29:25  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:29:25  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:29:29  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:29:39  INFO [pages.elements.HeaderElement] : Element was not clicked
+2024-22-02 18:30:58  INFO [basketTests.DeleteFromBasket] : ----deleteFromBasket was started ----
+2024-22-02 18:31:02  INFO [basketTests.DeleteFromBasket] : Browser was closed
+2024-22-02 18:31:02  INFO [basketTests.DeleteFromBasket] : ----deleteFromBasket was ended ----
+2024-22-02 18:31:11  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 18:31:16  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 18:31:16  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:31:21  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:31:26  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:31:26  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:31:26  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:31:30  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:31:40  INFO [pages.elements.HeaderElement] : Element was not clicked
+2024-22-02 18:33:45  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 18:33:50  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 18:33:51  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:33:53  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:33:58  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:33:58  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:33:58  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:34:02  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:34:19  INFO [favoritesTest.CheckMenuFavorites] : Browser was closed
+2024-22-02 18:34:19  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was ended ----
+2024-22-02 18:35:08  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 18:35:14  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 18:35:14  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:35:16  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:35:22  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:35:22  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:35:22  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:35:27  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:36:03  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 18:36:08  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 18:36:08  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:36:11  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:36:16  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:36:16  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:36:16  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:36:20  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:36:37  INFO [favoritesTest.CheckMenuFavorites] : Browser was closed
+2024-22-02 18:36:37  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was ended ----
+2024-22-02 18:55:50  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 18:55:56  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 18:55:56  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:55:58  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:56:04  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:56:04  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:56:04  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:56:08  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:56:24  INFO [favoritesTest.CheckMenuFavorites] : Browser was closed
+2024-22-02 18:56:24  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was ended ----
+2024-22-02 18:57:47  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 18:57:52  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 18:57:52  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:57:55  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:58:00  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 18:58:00  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 18:58:00  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:58:04  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 18:58:20  INFO [favoritesTest.CheckMenuFavorites] : Browser was closed
+2024-22-02 18:58:20  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was ended ----
+2024-22-02 19:01:15  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 19:01:20  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 19:01:20  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:01:23  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:01:29  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 19:01:29  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 19:01:29  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:01:33  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:01:43  INFO [pages.elements.HeaderElement] : Element was not clicked
+2024-22-02 19:01:59  INFO [favoritesTest.CheckMenuFavorites] : Browser was closed
+2024-22-02 19:01:59  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was ended ----
+2024-22-02 19:04:40  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 19:04:46  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 19:04:46  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:04:48  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:04:53  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 19:04:53  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 19:04:53  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:04:57  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:05:07  INFO [pages.elements.HeaderElement] : Element was not clicked
+2024-22-02 19:05:35  INFO [favoritesTest.CheckMenuFavorites] : Browser was closed
+2024-22-02 19:05:35  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was ended ----
+2024-22-02 19:06:32  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was started ----
+2024-22-02 19:06:38  INFO [favoritesTest.CheckMenuFavorites] : Browser was opened
+2024-22-02 19:06:38  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:06:40  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:06:45  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 19:06:45  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 19:06:46  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:06:50  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:07:00  INFO [pages.elements.HeaderElement] : Element was not clicked
+2024-22-02 19:07:25  INFO [favoritesTest.CheckMenuFavorites] : Browser was closed
+2024-22-02 19:07:25  INFO [favoritesTest.CheckMenuFavorites] : ----checkMenuFavorites was ended ----
+2024-22-02 19:13:35  INFO [basketTests.AddToBasketTest] : ----addToBasket was started ----
+2024-22-02 19:13:40  INFO [basketTests.AddToBasketTest] : Browser was opened
+2024-22-02 19:13:41  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:13:43  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:13:48  INFO [pages.LoginPage] : bulakhtanya94@gmail.com was inputted into input
+2024-22-02 19:13:48  INFO [pages.LoginPage] : tanya123 was inputted into input
+2024-22-02 19:13:48  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:13:52  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:13:58  INFO [pages.LoginPage] : Element was clicked
+2024-22-02 19:13:59  INFO [pages.ItemsPage] : Element was clicked
+2024-22-02 19:13:59  INFO [pages.ItemsPage] : Element was clicked
+2024-22-02 19:13:59  INFO [pages.ItemsPage] : Element was clicked
+2024-22-02 19:14:00  INFO [pages.elements.HeaderElement] : Element was not clicked
+2024-22-02 19:14:01  INFO [basketTests.AddToBasketTest] : Browser was closed
+2024-22-02 19:14:01  INFO [basketTests.AddToBasketTest] : ----addToBasket was ended ----

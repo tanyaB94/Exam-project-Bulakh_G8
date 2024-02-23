@@ -57,7 +57,7 @@ public class CommonActionsWithElements {
         }
     }
 
-    protected void checkTextInElement(WebElement element, String expectedText) {
+    protected boolean checkTextInElement(WebElement element, String expectedText) {
         try {
             String textFromElement = element.getText();
             Assert.assertEquals("Text in element not matched", expectedText, textFromElement);
@@ -65,5 +65,6 @@ public class CommonActionsWithElements {
             logger.error("Can not get text from element");
             Assert.fail("Can not get text from element");
         }
+        return false;
     }
 }

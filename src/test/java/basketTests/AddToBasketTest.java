@@ -2,6 +2,7 @@ package basketTests;
 
 import baseTest.BaseTest;
 import data.TestData;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class AddToBasketTest extends BaseTest {
@@ -20,6 +21,10 @@ public class AddToBasketTest extends BaseTest {
         pageProvider.itemsPage().clickOnChoseSize();
         pageProvider.itemsPage().clickOnCloseAddedWindow();
         pageProvider.mainPage().getHeader().clickOnButtonBasket();
+
+
+        Assert.assertFalse("Item was added to the basket", pageProvider.basketPage().isBasketContainsItems());
+
 
 
     }

@@ -20,6 +20,9 @@ public class ValidLoginTest extends BaseTest {
         pageProvider.loginPage().enterPassword(TestData.VALID_PASSWORD);
         pageProvider.loginPage().clickOnButtonSingIn();
 
+
+        Assert.assertFalse("User info is displayed after successful login", pageProvider.mainPage().getHeader().isUserInfoDisplayed());
+
     }
 
 

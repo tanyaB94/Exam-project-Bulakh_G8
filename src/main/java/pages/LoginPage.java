@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.elements.HeaderElement;
 
 import java.time.Duration;
 
@@ -18,7 +19,7 @@ public class LoginPage extends ParentPage{
     @FindBy(xpath = "//*[@id='login[password]_id']")
     private WebElement passwordInput;
 
-    @FindBy(xpath = "//*[@class='primary__PrimaryButtonComponent-sc-1pct4vx-0 fDECVK']")
+    @FindBy(xpath = "//*[@class='primary__PrimaryButtonComponent-sc-1pct4vx-0 jAMegv']")
     private WebElement loginButton;
 
     @FindBy(xpath = "//*[@class='action-btn__ActionBtn-zbpc1m-1 evsxEe']")
@@ -35,6 +36,11 @@ public class LoginPage extends ParentPage{
 
     @FindBy(xpath = "//div[@class='sc-TmdmN kRNdCB']")
     private WebElement invalidLoginMessage;
+
+    @FindBy(xpath = "//button[@data-testid = 'account-info-logged-true']")
+    private WebElement isUserInfoDisplayed;
+
+
 
 
 
@@ -84,6 +90,7 @@ public class LoginPage extends ParentPage{
     }
 
     public LoginPage clickOnButtonSingIn() {
+       wait.until(ExpectedConditions.elementToBeClickable(loginButton));
         clickOnElement(loginButton);
         return this;
     }
@@ -119,4 +126,5 @@ public class LoginPage extends ParentPage{
         return isElementDisplayed(invalidLoginMessage);
 
     }
+
 }
